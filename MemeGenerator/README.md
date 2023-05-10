@@ -1,5 +1,5 @@
 <h1 align="center"> Meme Generator </h1>
-<p align="center">Developed using meme-API by D3vd</p>
+
 
 Link : https://meme-imtiyaz.vercel.app
 
