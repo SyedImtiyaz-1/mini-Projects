@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 }
 
 .container .meme-box p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 0.3em;
 }
 
@@ -32,15 +33,15 @@ body {
     margin-top: 0.4em;
     height: 3vh;
     width: 6vw;
-    border: 0.7px solid;
     border-radius: 5px;
     font-size: 1em;
+    font-weight: bold;
 }
 
 button:hover {
     color: white;
-    background-color: red;
-    transition: 1s;
+    background-color: rgb(44, 16, 199);
+    transition: 0.3s;
 }
 
 .img {
@@ -57,5 +58,36 @@ button:hover {
 
 #memeowner {
     text-align: center;
-    text-decoration: underline;
+}
+
+
+@media only screen and (min-width:200px) and (max-width:760px){
+
+    .meme-box{
+        width: 70%;
+    }
+
+    .meme-box h1{
+        font-size: 3vh;
+    }
+
+    .meme-box p{
+        font-size: 0.2em;
+        width: 70vw;
+        display: flex;
+        justify-self: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    #memeBtn{
+        width: 50%;
+        height: 5vh;
+    }
+
+    .img{
+        height: 40vh;
+        width:100%;
+    }
+
 }
