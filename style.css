@@ -42,6 +42,8 @@ button:hover {
     color: white;
     background-color: rgb(44, 16, 199);
     transition: 0.3s;
+
+    cursor: pointer;
 }
 
 .img {
