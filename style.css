@@ -67,6 +67,7 @@ button:hover {
 
     .meme-box{
         width: 70%;
+        height:auto;
     }
 
     .meme-box h1{
