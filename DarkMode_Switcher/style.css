@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .content {
@@ -9,6 +8,7 @@
     margin: auto;
     width: 50vw;
     margin-top: 40vh;
+    flex-wrap: wrap;
 }
 
 #d-l-mode {
@@ -29,4 +29,16 @@ body.dark {
 box.light {
     color: #000;
     background-color: #fff;
+}
+@media only screen and (min-width:200px) and (max-width:720px){
+    .content{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+
+    #d-l-mode{
+        width: fit-content;
+    }
 }
