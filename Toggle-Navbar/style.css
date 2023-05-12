@@ -35,7 +35,7 @@ body{
 
 @media only screen and (max-width:720px) and (min-width:200px){
     html{
-        height: 100%;
+        height: auto;
         width: 100%;
     }
     .container{
@@ -43,17 +43,17 @@ body{
         height: 8vh;
         width: 100%;
         display: flex;
+        position: absolute;
     }
     .container ul{
         display: flex;
         align-items: end;
         justify-content: right;
-        background-color: red;
-        height: fit-content;
+        height: auto;
         width: 100%;
         flex-direction: column;
         position: relative;
-        top: 2.9rem;
+        margin-top: 2.4rem;
         left: 50%;
     }
 
@@ -61,7 +61,11 @@ body{
         font-size: 0.8em;
         display: flex;
         padding: 0.4em;
-        float: left;
+        float: right;
+        width: 197%;
+        background-color: red;
+        /* transition: all 0.5s linear;
+        transform: scaleY(95%); */
     }
 
     .nav-icon{
@@ -69,18 +73,20 @@ body{
         float: right;
         display: flex;
         cursor: pointer;
-        height: 100%;
+        height: auto;
         width: 100%;
         align-items: center;
         justify-content: end;
         position: relative;
         right: 0.5em;
+
         font-size: 1.5rem;
     }
 
    ul.active{
     display: none;
+    transition: 0.5s;
+    transform: scaleY(95%);
     }
-
     
 }
