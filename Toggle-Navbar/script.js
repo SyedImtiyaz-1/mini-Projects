@@ -1,8 +1,11 @@
-let btn = document.getElementById('click-nav');
-let ul_hide = document.querySelector('ul');
-let li_hide = document.querySelector('li-nav');
+let open_nav = document.getElementById('openNav');
+let open_width = document.getElementById('mySide');
+let close_nav = document.getElementById('close-btn')
 
-btn.addEventListener("click", function(){
-   ul_hide.classList.toggle("active");
-   li_hide.classList.toggle("active");
-})
+open_nav.addEventListener("click", function(){
+   open_width.style.width="250px";
+});
+
+close_nav.addEventListener("click", function(){
+   open_width.style.width="0px";
+});

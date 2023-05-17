@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Navbar-Toggle</title>
 </head>
+
 <body>
-    <nav class="container">
-        <ul class="nav-ul">
-            <li id="li-nav">Home</li>
-            <li id="li-nav">Services</li>
-            <li id="li-nav">About</li>
-            <li id="li-nav">Contact</li>
-        </ul>
-        <i id="click-nav" class="fa-solid fa-bars nav-icon"></i>
-    </nav>
+    <header>
+        <div class="container">
+            <div class="logo">
+                Navbar - Imtiyaz
+            </div>
+            <div>
+                <span class="menulines" id="openNav">&#9776;</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidenav" id="mySide">
+        <a href="javascript:void(0)" class="closebtn" id="close-btn">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <main>
+        Hello Bro
+    </main>
 
     <script src="script.js"></script>
+
 </body>
 </html>
