@@ -5,6 +5,6 @@ let drum_value = document.querySelectorAll(".drum"); // it's the value because i
 // loop to click every single button
 for (var i = 0; i < drum_index; i++) {
     drum_value[i].addEventListener("click", function () {
-        alert("hi");
+        
     });
 }
