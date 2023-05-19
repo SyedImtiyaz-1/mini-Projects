@@ -81,3 +81,9 @@ footer {
   background-color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width:600px){
+  body{
+    height: 100%;
+  }
+}
