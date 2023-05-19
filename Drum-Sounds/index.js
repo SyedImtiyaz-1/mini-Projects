@@ -82,8 +82,7 @@ const makeSound = (key) => {
 }
 
 setTimeout(() => {
-  if(confirm("Do you like Play-Drum ?") == true){
-    confirm("Wanna Check the developer's Linktree ?");
+  if(confirm("Wanna Check the developer's Linktree ?") === true){
     window.open('https://t.ly/imtiyaz-sde');
   }
 }, 6000);
